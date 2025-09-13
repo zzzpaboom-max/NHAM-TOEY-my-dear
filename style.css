@@ -1,0 +1,177 @@
+    .quiz-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fce4ec;
+    border-radius: 15px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#answerInput {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#submitBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d81b60;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CAF50; /* สีเขียวสำหรับคำตอบที่ถูก */
+}
+/* สำหรับหน้า letter.html */
+.letter-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #fce4ec; /* สีชมพูอ่อนๆ เหมือนหน้า quiz */
+    border-radius: 15px;
+    margin: 50px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.letter-container h1, .letter-container p {
+    font-family: 'Sriracha', cursive;
+    color: #2f2f2f; /* ปรับสีตัวอักษรให้อ่านง่ายขึ้น */
+}
+
+/* เพิ่มส่วนใหม่สำหรับหน้า letter.html */
+body {
+    background-color: #b3e5fc; /* สีฟ้าอ่อนๆ */
+}
+.raccoon-image-1 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 50px; /* เลื่อนขึ้นด้านบน */
+    left: 50px; /* เลื่อนไปทางขวา */
+    width: 150px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.raccoon-image-2 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 50px; /* เลื่อนขึ้นด้านบน */
+    right: 50px; /* เลื่อนไปทางขวา */
+    width: 150px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.mygirl-1 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 100px; /* เลื่อนขึ้นด้านบน */
+    left: 700px;
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(0deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.sunflower-1 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 100px; /* เลื่อนขึ้นด้านบน */
+    left: 1000px;
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.sunflower-2 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 100px; /* เลื่อนขึ้นด้านบน */
+    left: 400px;
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.mygirl-2 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 400px; /* เลื่อนขึ้นด้านบน */
+    right: 50px;
+    width: 300px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(0deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.mygirl-3 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 400px; /* เลื่อนขึ้นด้านบน */
+    left: 50px;
+    width: 300px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(0deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.sunflower-3 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 1000px; /* เลื่อนขึ้นด้านบน */
+    left: 1000px;
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.sunflower-4 {
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    top: 1000px; /* เลื่อนขึ้นด้านบน */
+    left: 400px;
+    width: 100px; /* ปรับขนาดรูปภาพ */
+    transform: rotate(15deg); /* หมุนรูปภาพให้ดูมีลูกเล่น */
+}
+.next-page-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+    text-decoration: none; /* เอาขีดเส้นใต้ออก */
+    background-color: #d81b60; /* สีปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border-radius: 50px; /* ทำให้ปุ่มโค้งมน */
+    transition: background-color 0.3s ease; /* เพิ่ม Animation ตอนเอาเมาส์ไปชี้ */
+     /* เพิ่มโค้ดใหม่ตรงนี้เพื่อให้ปุ่มอยู่ด้านล่าง */
+    position: absolute; /* กำหนดตำแหน่งแบบอิสระ */
+    bottom: -300px; /* เลื่อนลงจากขอบล่าง 75px */
+    left: 50%; /* เลื่อนไปกึ่งกลางแนวนอน */
+    transform: translateX(-50%); /* จัดกึ่งกลางจริงๆ */
+}
+
+.next-page-button:hover {
+    background-color: #c2185b; /* สีปุ่มเมื่อเอาเมาส์ไปชี้ */
+    transform: scale(1.05);
+}
+/* สำหรับหน้าเพลง */
+body {
+    background-color: #f0f8ff; /* สีพื้นหลังโทนอ่อนๆ */
+}
+
+.music-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 50px auto;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.music-container h1, .music-container p {
+    font-family: 'Sriracha', cursive;
+    color: #4a4a4a;
+}
+
+/* โค้ดสำหรับปุ่มเพลง */
+.music-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+    text-decoration: none;
+    background-color: #1DB954; /* สีเขียวของ Spotify */
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.music-button:hover {
+    background-color: #178a3c;
+    transform: scale(1.05);
+}
